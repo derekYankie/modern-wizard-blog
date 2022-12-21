@@ -13,8 +13,10 @@
     <h1>{{ title }}</h1> 
     <!-- Add header -->
     {% include 'header.njk' %}
+    <main>
     <!-- Dispaly content after title front matter -->
     {{ content | safe }}
+    </main>
     <!-- Add footer -->
     {% include 'footer.njk' %}
   </body>
