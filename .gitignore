@@ -1,0 +1,16 @@
+# dependencies installed by npm
+node_modules
+
+# build artifacts
+public
+css
+
+# secrets and errors
+.env
+.log
+
+# macOS related files
+.DS_Store
+
+# hide my notes
+notes
