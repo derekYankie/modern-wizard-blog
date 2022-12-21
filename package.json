@@ -20,5 +20,8 @@
   "homepage": "https://github.com/derekYankie/modern-wizard-blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "luxon": "^3.1.1"
   }
 }
