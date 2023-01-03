@@ -7,6 +7,8 @@
     <title>{{ title }}</title>
     <!-- Add CSS  -->
     <link rel="stylesheet" href="/style.css">
+    <!-- Add the Netlify Identity Widget -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
     <!-- Add title via front matter -->
@@ -19,5 +21,17 @@
     </main>
     <!-- Add footer -->
     {% include 'footer.njk' %}
+
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+  </script>
   </body>
 </html>
