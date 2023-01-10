@@ -1,9 +1,9 @@
 ---
-title: My Second Article
+title: Third Article
 author: Wizard Derek
-date: 2022-06-16
-tags: ["post", "featured"]
-image: /assets/blog/article-2.jpg
+date: 2022-02-12
+tags: ["post"]
+image: /assets/blog/article-3.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
