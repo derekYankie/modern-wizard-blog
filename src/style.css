@@ -6,7 +6,7 @@
   --fs-700: 2rem;
 
   --ff-body: "Roboto", sans-serif;
-  --ff-heading: "Playfair Display", serif;
+  --ff-heading: "Rockwell","Verdana", serif;
 
   --fw-400: 400;
   --fw-700: 700;
@@ -331,6 +331,10 @@ section,
 .snippet__title a:focus {
   color: var(--clr-primary-500);
 } 
+
+h3.snippet_title {
+  font-family: sans-serif;
+}
 
 @media (min-width: 45em) {
   .snippet {

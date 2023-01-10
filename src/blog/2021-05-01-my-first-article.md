@@ -1,5 +1,5 @@
 ---
-title: My First Article
+title: First Article
 author: Wizard Derek
 date: 2023-01-07
 tags: ["post", "featured"]
